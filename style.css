@@ -12,6 +12,7 @@ main {
   justify-content: space-evenly;
   height: 100svh;
   width: 100svw;
+  margin-top:0;
 }
 
 main #img-container img {
