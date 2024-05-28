@@ -9,7 +9,7 @@ body {
 }
 main {
   display: flex;
-  justify-content: space-evenly;
+/*   justify-content: space-evenly; */
   height: 100svh;
   width: 100svw;
   margin-top:0;
