@@ -17,7 +17,7 @@ main {
 
 main #img-container img {
   max-height: 70svh;
-  margin-top: 7rem;
+/*   margin-top: 7rem; */
 }
 main aside {
   display: flex;
