@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DS</title>
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <section id="img-container">
+        <img src="images/main-body-logo.png" alt="Picture of driving car" />
+      </section>
+
+      <aside>
+        <div id="signup-container">
+          <form id="signup-form">
+            <input type="text" placeholder="Full Name" id="name" />
+            <input type="text" placeholder="Username" id="username" />
+            <input type="email" placeholder="Email" id="email" />
+            <input type="password" placeholder="password" id="password" />
+            <input id="signup-submit-btn-el" type="button" value="Submit" />
+            <p>
+              Already have an account
+              <a id="signin" href="">Sign In</a>
+            </p>
+          </form>
+        </div>
+        <div id="signin-form-div">
+          <form id="signin-form">
+            <input type="email" placeholder="Email" id="signin-email" />
+            <input
+              type="password"
+              placeholder="password"
+              id="signin-password"
+            />
+            <input id="signin-submit-btn-el" type="button" value="Submit" />
+            <p>Don't have an account <a href="">Sign Up</a></p>
+          </form>
+        </div>
+      </aside>
+    </main>
+    <script type="module" src="register.js"></script>
+    <script type="module" src="login.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
